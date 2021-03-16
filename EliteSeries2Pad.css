@@ -1,0 +1,264 @@
+/*BEGIN EliteSeries2Pad Xbox Controller Styling*/
+.controller.EliteSeries2Pad {
+    background: url(base_Hubertov.svg);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+
+}
+
+.EliteSeries2Pad.disconnected {
+    background: url(disconnected.png);
+}
+
+.EliteSeries2Pad.disconnected div {
+    display: none;
+}
+
+.EliteSeries2Pad .triggers {
+    width: 446px;
+    height: 121px;
+    position: absolute;
+    left: 152px;
+}
+
+.EliteSeries2Pad .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(trigger.svg);
+    opacity: 0;
+}
+
+.EliteSeries2Pad .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.EliteSeries2Pad .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.EliteSeries2Pad .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(bumper.svg);
+    opacity: 0;
+}
+
+.EliteSeries2Pad .bumpers {
+    position: absolute;
+    width: 536px;
+    height: 61px;
+    left: 107px;
+    top: 129px;
+}
+
+.EliteSeries2Pad .bumper.pressed {
+    opacity: 1;
+}
+
+.EliteSeries2Pad .bumper.left {
+    float: left;
+}
+
+.EliteSeries2Pad .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.EliteSeries2Pad .quadrant {
+    position: absolute;
+    background: url(quadrant.svg);
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.EliteSeries2Pad .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.EliteSeries2Pad .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.EliteSeries2Pad .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.EliteSeries2Pad .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.EliteSeries2Pad .arrows {
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    top: 264px;
+    left: 306px;
+}
+
+.EliteSeries2Pad .back, .EliteSeries2Pad .start {
+    background: url(start-select.svg);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+
+.EliteSeries2Pad .back.pressed, .EliteSeries2Pad .start.pressed {
+    opacity: 1;
+}
+
+.EliteSeries2Pad .back {
+    float: left;
+}
+
+.EliteSeries2Pad .start {
+    background-position: 33px 0px;
+    float: right;
+}
+
+.EliteSeries2Pad .abxy {
+    position: absolute;
+    width: 153px;
+    height: 156px;
+    top: 192px;
+    left: 488px;
+}
+
+.EliteSeries2Pad .button {
+    position: absolute;
+    background: url(abxy.svg);
+    width: 48px;
+    height: 48px;
+}
+
+.EliteSeries2Pad .button.pressed {
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+
+.EliteSeries2Pad .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+}
+
+.EliteSeries2Pad .b {
+    background-position: -49px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.EliteSeries2Pad .x {
+    background-position: -98px 0;
+    top: 58px;
+    left: 4px;
+}
+
+.EliteSeries2Pad .y {
+    background-position: 48px 0;
+    left: 55px;
+    top: 7px;
+}
+
+.EliteSeries2Pad .sticks {
+    position: absolute;
+    width: 371px;
+    height: 196px;
+    top: 239px;
+    left: 143px;
+}
+
+.EliteSeries2Pad .stick {
+    position: absolute;
+    background: url(stick_Hubertov.svg);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.EliteSeries2Pad .stick.pressed {
+    background-position: 0 0;
+}
+
+.EliteSeries2Pad .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.EliteSeries2Pad .stick.right {
+    top: 113px;
+    left: 288px;
+}
+
+.EliteSeries2Pad .dpad {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
+}
+
+.EliteSeries2Pad .face {
+    background: url(dpad.svg);
+    position: absolute;
+    opacity: 0;
+}
+
+.EliteSeries2Pad .face.pressed {
+    opacity: 1;
+}
+
+.EliteSeries2Pad .face.up {
+    background-position: 34px 0;
+    left: 38px;
+    top: 0px;
+    width: 34px;
+    height: 56px;
+}
+
+.EliteSeries2Pad .face.down {
+    left: 38px;
+    bottom: 0;
+    width: 34px;
+    height: 56px;
+}
+
+.EliteSeries2Pad .face.left {
+    background-position: 0 -93px;
+    width: 55px;
+    height: 35px;
+    top: 38px;
+    left: 0;
+}
+
+.EliteSeries2Pad .face.right {
+    background-position: 0 -57px;
+    width: 55px;
+    height: 35px;
+    top: 38px;
+    right: 0;
+}
+
+.EliteSeries2Pad.half {
+    margin-top: -315px;
+}
+
+.EliteSeries2Pad {
+    background: no-repeat center;
+}
+
+/*END EliteSeries2Pad One Controller Styling*/
