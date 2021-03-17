@@ -149,34 +149,34 @@
 
 .EliteSeries2Pad .a {
     background-position: 0 0;
-    top: 108px;
-    left: 55px;
+    top: 110px;
+    left: 56px;
 }
 
 .EliteSeries2Pad .b {
     background-position: -49px 0;
     top: 58px;
-    right: 0px;
+    right: 2px;
 }
 
 .EliteSeries2Pad .x {
     background-position: -98px 0;
     top: 58px;
-    left: 4px;
+    left: 2px;
 }
 
 .EliteSeries2Pad .y {
     background-position: 48px 0;
     left: 55px;
-    top: 7px;
+    top: 6px;
 }
 
 .EliteSeries2Pad .sticks {
     position: absolute;
     width: 371px;
     height: 196px;
-    top: 239px;
-    left: 143px;
+    top: 227px;
+    left: 136px;
 }
 
 .EliteSeries2Pad .stick {
@@ -184,7 +184,7 @@
     background: url(stick.svg);
     background-position: -85px 0;
     height: 83px;
-    width: 83px;
+    width: 84px;
 }
 
 .EliteSeries2Pad .stick.pressed {
@@ -197,8 +197,8 @@
 }
 
 .EliteSeries2Pad .stick.right {
-    top: 113px;
-    left: 288px;
+    top: 112px;
+    left: 298px;
 }
 
 .EliteSeries2Pad .dpad {
