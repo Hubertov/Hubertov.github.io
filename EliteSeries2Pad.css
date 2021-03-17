@@ -142,8 +142,8 @@
 }
 
 .EliteSeries2Pad .button.pressed {
-    background-position-y: -48px;
-    margin-top: 5px;
+    background-position-y: -49px;
+    margin-top: 1px;
     opacity: 1;
 }
 
