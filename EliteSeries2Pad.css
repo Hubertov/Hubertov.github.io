@@ -209,10 +209,10 @@
 
 .custom .dpad {
     position: absolute;
-    width: 110px;
-    height: 111px;
-    top: 327px;
-    left: 219px;
+    width: 211px;
+    height: 112px;
+    top: 345px;
+    left: 223px;
 }
 
 .custom .face {
@@ -226,35 +226,34 @@
 }
 
 .custom .face.up {
-    background-position: 34px 0;
-    left: 38px;
-    top: 0px;
-    width: 34px;
-    height: 56px;
+    background-position: 43px 0;
+    left: 29px;
+    top: -19px;
+    width: 43px;
+    height: 65px;
 }
 
 .custom .face.down {
-    left: 38px;
-    top: 66px;
-    bottom: 0;
-    width: 34px;
-    height: 56px;
+    left: 30px;
+    bottom: 1px;
+    width: 43px;
+    height: 65px;
 }
 
 .custom .face.left {
-    background-position: 0 -93px;
-    width: 55px;
-    height: 35px;
-    top: 43px;
-    left: -9px;
+    background-position: 0 -108px;
+    width: 65px;
+    height: 43px;
+    top: 23px;
+    left: -14px;
 }
 
 .custom .face.right {
-    background-position: 0 -57px;
-    width: 55px;
-    height: 35px;
-    top: 43px;
-    right: -5px;
+    background-position: 0 -65px;
+    width: 65px;
+    height: 43px;
+    top: 23px;
+    right: 94px;
 }
 
 .custom.half {
