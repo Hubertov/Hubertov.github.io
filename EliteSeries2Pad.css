@@ -211,8 +211,8 @@
     position: absolute;
     width: 110px;
     height: 111px;
-    top: 345px;
-    left: 223px;
+    top: 327px;
+    left: 219px;
 }
 
 .custom .face {
@@ -235,6 +235,7 @@
 
 .custom .face.down {
     left: 38px;
+    top: 66px;
     bottom: 0;
     width: 34px;
     height: 56px;
@@ -244,16 +245,16 @@
     background-position: 0 -93px;
     width: 55px;
     height: 35px;
-    top: 38px;
-    left: 0;
+    top: 43px;
+    left: -9px;
 }
 
 .custom .face.right {
     background-position: 0 -57px;
     width: 55px;
     height: 35px;
-    top: 38px;
-    right: 0;
+    top: 43px;
+    right: -5px;
 }
 
 .custom.half {
