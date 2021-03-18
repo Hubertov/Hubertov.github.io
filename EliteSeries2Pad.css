@@ -1,5 +1,5 @@
 /*BEGIN EliteSeries2Pad Xbox Controller Styling*/
-.controller.EliteSeries2Pad {
+.controller.custom {
     background: url(base_EliteSeries2Pad.svg);
     height: 630px;
     width: 750px;
@@ -7,46 +7,46 @@
         margin-top: -285px;*/
 }
 
-.EliteSeries2Pad.disconnected {
+.custom.disconnected {
     background: url(disconnected.png);
 }
 
-.EliteSeries2Pad.disconnected div {
+.custom.disconnected div {
     display: none;
 }
 
-.EliteSeries2Pad .triggers {
+.custom .triggers {
     width: 446px;
     height: 121px;
     position: absolute;
     left: 152px;
 }
 
-.EliteSeries2Pad .trigger {
+.custom .trigger {
     width: 88px;
     height: 121px;
     background: url(trigger.svg);
     opacity: 0;
 }
 
-.EliteSeries2Pad .trigger.left {
+.custom .trigger.left {
     float: left;
     background-position: 0 0;
 }
 
-.EliteSeries2Pad .trigger.right {
+.custom .trigger.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.EliteSeries2Pad .bumper {
+.custom .bumper {
     width: 170px;
     height: 61px;
     background: url(bumper.svg);
     opacity: 0;
 }
 
-.EliteSeries2Pad .bumpers {
+.custom .bumpers {
     position: absolute;
     width: 536px;
     height: 61px;
@@ -54,21 +54,21 @@
     top: 129px;
 }
 
-.EliteSeries2Pad .bumper.pressed {
+.custom .bumper.pressed {
     opacity: 1;
 }
 
-.EliteSeries2Pad .bumper.left {
+.custom .bumper.left {
     float: left;
 }
 
-.EliteSeries2Pad .bumper.right {
+.custom .bumper.right {
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-.EliteSeries2Pad .quadrant {
+.custom .quadrant {
     position: absolute;
     background: url(quadrant.svg);
     height: 45px;
@@ -78,27 +78,27 @@
     z-index: 0;
 }
 
-.EliteSeries2Pad .p0 {
+.custom .p0 {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
 
-.EliteSeries2Pad .p1 {
+.custom .p1 {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
-.EliteSeries2Pad .p2 {
+.custom .p2 {
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
 
-.EliteSeries2Pad .p3 {
+.custom .p3 {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
-.EliteSeries2Pad .arrows {
+.custom .arrows {
     position: absolute;
     width: 141px;
     height: 33px;
@@ -106,27 +106,27 @@
     left: 306px;
 }
 
-.EliteSeries2Pad .back, .EliteSeries2Pad .start {
+.custom .back, .custom .start {
     background: url(start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.EliteSeries2Pad .back.pressed, .EliteSeries2Pad .start.pressed {
+.custom .back.pressed, .custom .start.pressed {
     opacity: 1;
 }
 
-.EliteSeries2Pad .back {
+.custom .back {
     float: left;
 }
 
-.EliteSeries2Pad .start {
+.custom .start {
     background-position: 33px 0px;
     float: right;
 }
 
-.EliteSeries2Pad .abxy {
+.custom .abxy {
     position: absolute;
     width: 157px;
     height: 156px;
@@ -134,44 +134,44 @@
     left: 494px;
 }
 
-.EliteSeries2Pad .button {
+.custom .button {
     position: absolute;
     background: url(abxy.svg);
     width: 48px;
     height: 48px;
 }
 
-.EliteSeries2Pad .button.pressed {
+.custom .button.pressed {
     background-position-y: -49px;
     margin-top: 1px;
     opacity: 1;
 }
 
-.EliteSeries2Pad .a {
+.custom .a {
     background-position: 0 0;
     top: 110px;
     left: 56px;
 }
 
-.EliteSeries2Pad .b {
+.custom .b {
     background-position: -49px 0;
     top: 58px;
     right: 2px;
 }
 
-.EliteSeries2Pad .x {
+.custom .x {
     background-position: -98px 0;
     top: 58px;
     left: 2px;
 }
 
-.EliteSeries2Pad .y {
+.custom .y {
     background-position: 48px 0;
     left: 55px;
     top: 6px;
 }
 
-.EliteSeries2Pad .sticks {
+.custom .sticks {
     position: absolute;
     width: 371px;
     height: 196px;
@@ -179,7 +179,7 @@
     left: 136px;
 }
 
-.EliteSeries2Pad .stick {
+.custom .stick {
     position: absolute;
     background: url(stick.svg);
     background-position: -85px 0;
@@ -187,21 +187,21 @@
     width: 84px;
 }
 
-.EliteSeries2Pad .stick.pressed {
+.custom .stick.pressed {
     background-position: 0 0;
 }
 
-.EliteSeries2Pad .stick.left {
+.custom .stick.left {
     top: 0;
     left: 0;
 }
 
-.EliteSeries2Pad .stick.right {
+.custom .stick.right {
     top: 112px;
     left: 298px;
 }
 
-.EliteSeries2Pad .dpad {
+.custom .dpad {
     position: absolute;
     width: 110px;
     height: 111px;
@@ -209,17 +209,17 @@
     left: 223px;
 }
 
-.EliteSeries2Pad .face {
+.custom .face {
     background: url(dpad.svg);
     position: absolute;
     opacity: 0;
 }
 
-.EliteSeries2Pad .face.pressed {
+.custom .face.pressed {
     opacity: 1;
 }
 
-.EliteSeries2Pad .face.up {
+.custom .face.up {
     background-position: 34px 0;
     left: 38px;
     top: 0px;
@@ -227,14 +227,14 @@
     height: 56px;
 }
 
-.EliteSeries2Pad .face.down {
+.custom .face.down {
     left: 38px;
     bottom: 0;
     width: 34px;
     height: 56px;
 }
 
-.EliteSeries2Pad .face.left {
+.custom .face.left {
     background-position: 0 -93px;
     width: 55px;
     height: 35px;
@@ -242,7 +242,7 @@
     left: 0;
 }
 
-.EliteSeries2Pad .face.right {
+.custom .face.right {
     background-position: 0 -57px;
     width: 55px;
     height: 35px;
@@ -250,11 +250,11 @@
     right: 0;
 }
 
-.EliteSeries2Pad.half {
+.custom.half {
     margin-top: -315px;
 }
 
-.EliteSeries2Pad {
+.custom {
     background: no-repeat center;
 }
 
