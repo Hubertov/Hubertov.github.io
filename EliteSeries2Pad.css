@@ -118,11 +118,17 @@
 }
 
 .custom .back {
+    position: absolute;
+    top: -12px;
+    left: -2px;
     float: left;
 }
 
 .custom .start {
     background-position: 33px 0px;
+    position: absolute;
+    top: -12px;
+    left: 110px;
     float: right;
 }
 
